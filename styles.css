@@ -38,7 +38,7 @@ body{
     height: 420px;
     background-color: #ffffff;
     float: right;
-    border-top-right-radius: 3%;
+    border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
     
 }
