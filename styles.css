@@ -2,16 +2,16 @@ body{
     background-color: #f3eae3;
     margin: 0;
     font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .main{
-    width: 600px;
-    height: 420px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
+    max-width: 600px;
     background-color: #ffffff;
-    margin: -210px 0 0 -300px;
     border-radius: 3%;
     display: inline-block;
 }
@@ -35,11 +35,11 @@ body{
 
 .details{
     width: 320px;
-    height: 420px;
     background-color: #ffffff;
     float: right;
     border-bottom-left-radius: 3%;
     border-bottom-right-radius: 3%;
+    border-top-right-radius: 3%;
     
 }
 
@@ -128,16 +128,16 @@ body{
     body{
         background-color: #f3eae3;
         margin: 0;
-        font-size: 20px;
-        position: relative;
+        font-size: 14px;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
     }
     .main{
         width: 366px;
-        height: 700px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        margin: -350px 0 0 -183px;
+        height: 600px;
         background-color: #ffffff;
         border-radius: 3%;
     }
