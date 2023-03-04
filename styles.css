@@ -124,7 +124,7 @@ body{
     font-size: 13px;
 }
 
-@media screen and (max-width: 855px) {
+@media screen and (max-width: 1024px) {
     body{
         background-color: #f3eae3;
         margin: 0;
